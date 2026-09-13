@@ -28,7 +28,7 @@ MODEL_NAME = "Qwen/Qwen3-8B"
 # -----------------------------
 # إعدادات الاتصال بـ Kaggle — غيّرها هنا كل مرة يتغيّر فيها الـ ngrok URL
 # -----------------------------
-KAGGLE_SERVER_URL = "https://basket-placidly-deftly.ngrok-free.dev"
+KAGGLE_SERVER_URL = "ngrok URL"
 
 
 def set_server_url(url: str):
