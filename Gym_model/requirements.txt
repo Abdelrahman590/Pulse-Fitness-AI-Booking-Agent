@@ -1,0 +1,17 @@
+# requirements.txt — للـ Backend المحلي في VS Code فقط
+# (ملحوظة: ده مش لـ Kaggle — Kaggle له متطلباته الخاصة داخل الـ notebook نفسه)
+
+# --- Orchestration ---
+langgraph==0.2.60
+
+# --- Tokenizer محلي (بس مش الموديل كامل — خفيف وبيشتغل على CPU) ---
+transformers==4.46.3
+
+# --- Embeddings للـ memory (بيشتغل على CPU براحة) ---
+sentence-transformers==3.3.1
+
+# --- الاتصال بسيرفر Kaggle عبر ngrok ---
+requests==2.32.3
+
+# --- الواجهة ---
+streamlit==1.40.2
